@@ -5,7 +5,8 @@ describe SingaporeRelativeClock do
 		@clock = SingaporeRelativeClock.new
 	end
 
-	it "should..." do
+	it "should be -2 for Sydney" do
+	@clock.timeDifferenceTo("Sydney").should === 2
 
 	end
 
