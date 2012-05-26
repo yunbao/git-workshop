@@ -28,7 +28,7 @@ describe GMTOffsetFinder do
 		@finder.offsetFor("Melbourne").should be_a_kind_of Numeric
 	end
 
-	it "should return correct offset for a known city" do
+	it "should return correct offset for a known city" do  
 		@finder.offsetFor("Melbourne").should === 10.0
 	end
 
